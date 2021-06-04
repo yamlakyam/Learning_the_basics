@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections;
+using System.Threading;
 
 namespace VeryFirst
 {
     class Program
     {
+
+        static Dictionary<int, int> items = new Dictionary<int, int>();
+
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
@@ -43,12 +47,22 @@ namespace VeryFirst
             //list.Add("a string");
             //Console.WriteLine(list[0].ToString().Length);
 
-            Hashtable table = new Hashtable();
-            table.Add("title", "some_website");
+            //hashtable table = new hashtable();
+            //table.add("title", "some_website");
 
-            Console.WriteLine(table["title"]);
+            //console.writeline(table["title"]);
 
+            Thread thread1 = new Thread(new ThreadStart(addItem));
+            Thread thread2 = new Thread(new ThreadStart(addItem));
 
+            thread1.Start();
+            thread2.Start();
         }
+
+        static void addItem() {
+
+            items.Add(1, 2);
+        }
+
     }
 }
