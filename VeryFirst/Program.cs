@@ -38,11 +38,16 @@ namespace VeryFirst
             //}
 
 
-            ArrayList list = new ArrayList();
-            list.Add("a string");
 
-      
-            Console.WriteLine(list[0].ToString().Length);
+            //ArrayList list = new ArrayList();
+            //list.Add("a string");
+            //Console.WriteLine(list[0].ToString().Length);
+
+            Hashtable table = new Hashtable();
+            table.Add("title", "some_website");
+
+            Console.WriteLine(table["title"]);
+
 
         }
     }
