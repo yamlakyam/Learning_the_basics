@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace VeryFirst
 {
@@ -7,6 +8,19 @@ namespace VeryFirst
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            List<String> customers = new List<string>();
+            customers.Add("Heineken");
+            customers.Add("Marriot Executives");
+            customers.Add("Starbucks");
+            customers.Add("McDonald's");
+
+            foreach (var item in customers)
+            {
+                Console.WriteLine(item);
+            }
+
+
         }
     }
 }
