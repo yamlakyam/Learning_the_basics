@@ -1,0 +1,13 @@
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\bin\Debug\netcoreapp3.1\VeryFirst.exe
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\bin\Debug\netcoreapp3.1\VeryFirst.deps.json
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\bin\Debug\netcoreapp3.1\VeryFirst.runtimeconfig.json
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\bin\Debug\netcoreapp3.1\VeryFirst.runtimeconfig.dev.json
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\bin\Debug\netcoreapp3.1\VeryFirst.dll
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\bin\Debug\netcoreapp3.1\VeryFirst.pdb
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\obj\Debug\netcoreapp3.1\VeryFirst.csproj.AssemblyReference.cache
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\obj\Debug\netcoreapp3.1\VeryFirst.AssemblyInfoInputs.cache
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\obj\Debug\netcoreapp3.1\VeryFirst.AssemblyInfo.cs
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\obj\Debug\netcoreapp3.1\VeryFirst.csproj.CoreCompileInputs.cache
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\obj\Debug\netcoreapp3.1\VeryFirst.dll
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\obj\Debug\netcoreapp3.1\VeryFirst.pdb
+C:\Users\RD-U031\source\repos\VeryFirst\VeryFirst\obj\Debug\netcoreapp3.1\VeryFirst.genruntimeconfig.cache
