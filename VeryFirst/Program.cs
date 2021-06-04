@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Collections;
 using System.Threading;
+using System.Collections.Concurrent;
 
 namespace VeryFirst
 {
     class Program
     {
 
-        static Dictionary<int, int> items = new Dictionary<int, int>();
+        static ConcurrentDictionary<int, int> items = new ConcurrentDictionary<int, int>();
 
         static void Main(string[] args)
         {
@@ -61,7 +62,8 @@ namespace VeryFirst
 
         static void addItem() {
 
-            items.Add(1, 2);
+            items.TryAdd(1, 2);
+            Console.WriteLine(items.Count);
         }
 
     }
