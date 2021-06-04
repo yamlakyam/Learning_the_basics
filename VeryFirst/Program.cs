@@ -64,6 +64,7 @@ namespace VeryFirst
 
             items.TryAdd(1, 2);
             Console.WriteLine(items.Count);
+            Console.WriteLine(items[1]);
         }
 
     }
